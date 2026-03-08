@@ -88,9 +88,9 @@ Detected sorting = none
       - `-1` se estiver ordenado de forma decrescente;
       - `0` se não estiver ordenado.
 
-4. :robot: Peça ao ChatGPT (ou similar) para "gerar a documentação *doxygen*" destas funções e adicione-as ao ficheiro. **Estude a sua sintaxe**.
+4. :robot: Peça ao ChatGPT (ou LLM similar) para "gerar a documentação *doxygen*" destas funções e adicione-as ao ficheiro. **Estude a sua sintaxe**.
 
-5. No *source file* do módulo implemente as funções anteriores (sem recurso ao ChatGPT :x::robot:)
+5. No *source file* do módulo implemente as funções anteriores - preferencialmente, sem recurso a LLM :x::robot:, mas se utilizar faça uso das [boas práticas](../../../BoasPraticas-LLM).
 
 6. No `main` declare **um** (!) array de inteiros e replique o *output* do programa exemplificado acima.
 
@@ -136,3 +136,4 @@ Escreva um programa modular em C para gerir despesas mensais. O programa deverá
 ---
 
 @ bruno.silva@estsetubal.ips.pt
+
